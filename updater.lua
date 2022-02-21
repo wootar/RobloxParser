@@ -23,7 +23,7 @@ local list = {
 -- -d
 print(list[1])
 -- Clean up the old version of roblox
-os.execute("rd C:\Roblox\rblx /s /q")
+os.execute("rd C:\\Roblox\\rblx /s /q")
 --
 os.execute("mkdir rblx")
 os.execute("mkdir rblx\\PlatformContent")
