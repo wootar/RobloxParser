@@ -37,6 +37,16 @@ placeLauncher = placeLauncher:gsub("%%3F","?")
 placeLauncher = placeLauncher:gsub("%%3D","=")
 -- Due to how windows handles ampersands we must turn it into a escape character
 placeLauncher = placeLauncher:gsub("%%26","^&")
+-- Check if game ID was used
+if placeLauncher:match("gameId") then
+    -- Redo the place launcher
+    placeLauncher = arguments:sub(413,605)
+    placeLauncher = placeLauncher:gsub("%%3A",":")
+    placeLauncher = placeLauncher:gsub("%%2F","/")
+    placeLauncher = placeLauncher:gsub("%%3F","?")
+    placeLauncher = placeLauncher:gsub("%%3D","=")
+    placeLauncher = placeLauncher:gsub("%%26","^&")
+end
 -- Just to be sure
 launchTime = arguments:sub(382,394)
 -- We need the Browser Tracker ID for "seamless play"
