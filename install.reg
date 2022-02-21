@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+ 
+[HKEY_CLASSES_ROOT\roblox-player]
+@="URL: Roblox Protocol"
+"URL Protocol"=""
+ 
+[HKEY_CLASSES_ROOT\roblox-player\shell]
+
+[HKEY_CLASSES_ROOT\roblox-player\shell\open]
+
+[HKEY_CLASSES_ROOT\roblox-player\shell\open\command]
+@="C:\\Roblox\\lua54.exe C:\\Roblox\\main.lua %1"
