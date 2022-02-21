@@ -3,7 +3,14 @@ Launch Roblox from another directory or replace the default roblox launcher
 
 https://user-images.githubusercontent.com/89206182/154862305-8e90081d-6b00-47c9-bd02-372c030e59a6.mp4
 
-# How to install
+# How to install with the premade package
+- Download the premade package from https://github.com/wooter6928196219911/RobloxParser/releases
+- Then make the Roblox directory on the C root drive
+- Import the install.reg in the zip file
+- Extract the zip file to the Roblox directory
+- Go to roblox and play a game and pray it works
+
+# How to install without the premade package
 - First we need unzip so download it from http://gnuwin32.sourceforge.net/packages/unzip.htm
 - Then download lua for windows from http://luabinaries.sourceforge.net/
 - Make a Roblox directory on root of the C drive
