@@ -25,6 +25,6 @@ https://user-images.githubusercontent.com/89206182/154862305-8e90081d-6b00-47c9-
 - [ ] Improve the readme
 - [ ] Remove hard coding
 - [ ] Get it running on Linux
-- [ ] Fix when joining a specific server or a friend
+- [X] Fix when joining a specific server or a friend
 
 
