@@ -18,7 +18,7 @@ if temp:read("*l") == temp2:read("*l") then
     print("Up to date")
 else
     print("We're not up to date")
-    os.execute("cd C:\\Roblox & start /wait lua.exe updater.lua")
+    os.execute("cd C:\\Roblox & start /wait lua54.exe updater.lua")
 end
 -- Variables
 local appBeta = 1
